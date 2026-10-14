@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>House of Payal | Handcrafted Silver Jewellery</title>
+<meta name="description" content="House of Payal – elegant 925 silver payals, chains, bracelets and jewellery. Browse the collection and enquire on WhatsApp.">
+<meta property="og:title" content="House of Payal | Silver Jewellery">
+<meta property="og:description" content="Elegant silver payals, chains and bracelets. Enquire on WhatsApp.">
+<meta property="og:type" content="website">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"JewelryStore","name":"House of Payal","description":"Silver jewellery catalogue – payals, chains, bracelets.","sameAs":["https://instagram.com/houseofpayal"]}</script>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#faf8f5;--surf:#f1eee9;--ink:#1e1e20;--mute:#74706b;--line:#e3ded7;--acc:#8a8f99;--btn:#1e1e20;--btnt:#faf8f5;
+--serif:'Cormorant Garamond',Georgia,serif;--sans:'Jost',system-ui,sans-serif;color-scheme:light}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141415;--surf:#1d1d1f;--ink:#f2efea;--mute:#a09b94;--line:#2c2c2f;--acc:#b9bec8;--btn:#f2efea;--btnt:#141415;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141415;--surf:#1d1d1f;--ink:#f2efea;--mute:#a09b94;--line:#2c2c2f;--acc:#b9bec8;--btn:#f2efea;--btnt:#141415;color-scheme:dark}
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-weight:300;line-height:1.7}
+a{color:inherit;text-decoration:none}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+header{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{display:flex;align-items:center;gap:10px;font-family:var(--serif);font-size:22px;letter-spacing:.14em;text-transform:uppercase;cursor:pointer}
+nav{display:flex;gap:26px;font-size:13px;letter-spacing:.14em;text-transform:uppercase}
+nav a{padding:4px 0;border-bottom:1px solid transparent;color:var(--mute)}
+nav a:hover,nav a.on{color:var(--ink);border-color:var(--ink)}
+.menu{display:none;background:none;border:0;color:var(--ink);font:inherit;font-size:13px;letter-spacing:.14em;text-transform:uppercase;cursor:pointer}
+@media(max-width:760px){.menu{display:block}nav{display:none;position:absolute;top:68px;left:0;right:0;background:var(--bg);flex-direction:column;gap:0;padding:8px 22px 16px;border-bottom:1px solid var(--line)}nav.open{display:flex}nav a{padding:12px 0}.logo{font-size:18px}}
+.hero{padding:96px 0 84px;text-align:center}
+.eyebrow{font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--mute);margin-bottom:18px}
+.hero h1{font-size:clamp(40px,7vw,76px);max-width:760px;margin:0 auto 20px}
+.hero p{max-width:480px;margin:0 auto 34px;color:var(--mute)}
+.btn{display:inline-block;background:var(--btn);color:var(--btnt);padding:14px 30px;font-size:12px;letter-spacing:.2em;text-transform:uppercase;border:1px solid var(--btn);cursor:pointer;font-family:var(--sans)}
+.btn.ghost{background:none;color:var(--ink);border-color:var(--ink);margin-left:8px}
+section{padding:64px 0}
+.sec-h{text-align:center;margin-bottom:40px}
+.sec-h h2{font-size:clamp(30px,4.5vw,44px)}
+.sec-h p{color:var(--mute);margin:8px 0 0}
+.grid{display:grid;gap:22px;grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+.cat{background:var(--surf);cursor:pointer;text-align:center;padding-bottom:18px}
+.cat h3{font-size:24px;margin-top:12px}.cat span{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--mute)}
+.img{aspect-ratio:1/1;background:var(--surf);overflow:hidden}
+.img img{width:100%;height:100%;object-fit:cover;display:block}
+.card{cursor:pointer}.card h3{font-size:21px;margin-top:12px}.card p{margin:2px 0 0;font-size:14px;color:var(--mute)}
+.band{background:var(--surf);text-align:center}
+.band p{max-width:620px;margin:16px auto 0;color:var(--mute)}
+.insta{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px;margin-top:8px}
+.tabs{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:34px}
+.tabs a{border:1px solid var(--line);padding:8px 18px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--mute)}
+.tabs a.on{background:var(--btn);color:var(--btnt);border-color:var(--btn)}
+.two{display:grid;gap:40px;grid-template-columns:1fr 1fr;align-items:center}
+@media(max-width:760px){.two{grid-template-columns:1fr}}
+.info p{color:var(--mute)}.info li{color:var(--mute);margin:6px 0}
+.wa{display:inline-block;background:#25a244;color:#fff;padding:14px 28px;font-size:13px;letter-spacing:.14em;text-transform:uppercase}
+.fab{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));width:54px;height:54px;border-radius:50%;background:#25a244;color:#fff;display:grid;place-items:center;box-shadow:0 4px 14px rgba(0,0,0,.25);z-index:6}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;align-items:center;justify-content:center;padding:18px;z-index:10}
+.modal.open{display:flex}
+.box{background:var(--bg);max-width:860px;width:100%;max-height:92vh;overflow:auto;position:relative;padding:22px}
+.x{position:absolute;right:14px;top:8px;background:none;border:0;color:var(--ink);font-size:28px;cursor:pointer;z-index:2}
+footer{border-top:1px solid var(--line);padding:40px 0;text-align:center;color:var(--mute);font-size:14px}
+footer a{margin:0 10px;text-decoration:underline}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="logo" href="#home" aria-label="House of Payal home"><svg id="lg" width="30" height="30" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="20" cy="20" r="17"/><path d="M12 28V12M28 28V12M12 20h16"/><circle cx="20" cy="31" r="1.6" fill="currentColor"/></svg>House of Payal</a>
+<button class="menu" id="mb">Menu</button>
+<nav id="nv"><a href="#home" data-r="home">Home</a><a href="#payals" data-r="payals">Payals</a><a href="#chains" data-r="chains">Chains</a><a href="#bracelets" data-r="bracelets">Bracelets</a><a href="#more" data-r="more">More</a><a href="#about" data-r="about">About</a><a href="#contact" data-r="contact">Contact</a></nav>
+</div></header>
+<main id="app"></main>
+<footer><div class="wrap"><div class="logo" style="justify-content:center;margin-bottom:12px">House of Payal</div>
+<p>Handcrafted silver, made to be worn every day.</p>
+<p><a id="fi" target="_blank" rel="noopener">Instagram</a><a id="fw" target="_blank" rel="noopener">WhatsApp</a></p>
+<p style="font-size:12px">© House of Payal. All rights reserved.</p></div></footer>
+<a class="fab" id="fab" target="_blank" rel="noopener" aria-label="Enquire on WhatsApp"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.2 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.2c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.6c-.2.2-.3.3-.1.6.2.3.8 1.300 1.700 2.100 1.200 1 2.200 1.400 2.500 1.500.3.2.5.1.6-.1l.9-1.100c.2-.3.4-.2.6-.1l1.900.9c.3.1.5.2.5.3.1.2.1.8-.1 1.300z"/></svg></a>
+<div class="modal" id="md"><div class="box"><button class="x" id="mx" aria-label="Close">×</button><div id="mc"></div></div></div>
+
+<script>
+/* ===== EDIT THIS SECTION ===== */
+const CFG={whatsapp:"919999999999",instagram:"houseofpayal",email:"hello@houseofpayal.com",city:"India",
+  hours:"Mon–Sat, 10am – 7pm"};
+/* To use real photos: set img:"images/your-photo.jpg" (or any URL). If img is empty, an elegant placeholder is drawn. */
+const CATS={
+ payals:{name:"Silver Payals",tag:"Anklets that sing softly with every step",type:"payal"},
+ chains:{name:"Silver Chains",tag:"Everyday classics and statement links",type:"chain"},
+ bracelets:{name:"Silver Bracelets",tag:"Delicate to bold, for every wrist",type:"bracelet"},
+ more:{name:"Other Collections",tag:"Rings, earrings, pendants and gifting",type:"ring"}};
+const P=[
+ {id:1,c:"payals",n:"Ghungroo Payal",d:"Traditional anklet with tiny silver bells.",w:"≈ 38 g / pair",img:""},
+ {id:2,c:"payals",n:"Minimal Link Payal",d:"Slim, lightweight anklet for daily wear.",w:"≈ 20 g / pair",img:""},
+ {id:3,c:"payals",n:"Bridal Heritage Payal",d:"Broad hand-finished design for weddings.",w:"≈ 85 g / pair",img:""},
+ {id:4,c:"chains",n:"Rope Chain",d:"Classic twisted rope, 20 inch.",w:"≈ 14 g",img:""},
+ {id:5,c:"chains",n:"Curb Chain",d:"Bold, flat interlocking links.",w:"≈ 22 g",img:""},
+ {id:6,c:"chains",n:"Box Chain",d:"Smooth square links with a refined drape.",w:"≈ 12 g",img:""},
+ {id:7,c:"bracelets",n:"Cuff Bracelet",d:"Open cuff with a brushed finish.",w:"≈ 18 g",img:""},
+ {id:8,c:"bracelets",n:"Charm Bracelet",d:"Fine chain with small dangling charms.",w:"≈ 10 g",img:""},
+ {id:9,c:"bracelets",n:"Kada",d:"Solid silver kada, adjustable.",w:"≈ 45 g",img:""},
+ {id:10,c:"more",n:"Solitaire Ring",d:"Simple band with a single stone.",w:"≈ 5 g",img:""},
+ {id:11,c:"more",n:"Jhumka Earrings",d:"Lightweight silver jhumkas.",w:"≈ 9 g",img:""},
+ {id:12,c:"more",n:"Gift Set",d:"Pendant and earring set in a gift box.",w:"≈ 12 g",img:""}];
+/* ============================= */
+const $=s=>document.querySelector(s),app=$('#app');
+const wa=t=>`https://wa.me/${CFG.whatsapp}?text=${encodeURIComponent(t)}`;
+function art(type,i){
+ const hues=[210,30,260,180];const bg=`<rect width="400" height="400" fill="#ece8e2"/><circle cx="200" cy="200" r="170" fill="#f7f4ef"/>`;
+ const s='stroke="#8a8f99" stroke-width="5" fill="none" stroke-linecap="round"';
+ let g='';
+ if(type=="payal"){g=`<path d="M60 150Q200 300 340 150" ${s}/>`;for(let k=0;k<7;k++){const t=(k+.5)/7,x=60+280*t,y=150+ (1-Math.pow(2*t-1,2))*75*1.0;g+=`<circle cx="${x}" cy="${y+22}" r="11" fill="#c9ccd3" stroke="#8a8f99" stroke-width="3"/>`}}
+ else if(type=="chain"){for(let k=0;k<11;k++){const t=k/10,x=70+260*t,y=120+(1-Math.pow(2*t-1,2))*130;g+=`<ellipse cx="${x}" cy="${y}" rx="17" ry="9" transform="rotate(${(t-.5)*70} ${x} ${y})" ${s}/>`}}
+ else if(type=="bracelet"){g=`<ellipse cx="200" cy="200" rx="105" ry="85" ${s} stroke-width="14"/><ellipse cx="200" cy="200" rx="105" ry="85" stroke="#d6d9de" stroke-width="3" fill="none"/>`}
+ else{g=`<circle cx="200" cy="215" r="70" ${s} stroke-width="12"/><path d="M180 130l20-30 20 30-20 22z" fill="#d6d9de" stroke="#8a8f99" stroke-width="4"/>`}
+ return "data:image/svg+xml,"+encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">${bg}${g}</svg>`);
+}
+const im=p=>p.img||art(CATS[p.c].type);
+const card=p=>`<div class="card" data-id="${p.id}"><div class="img"><img loading="lazy" src="${im(p)}" alt="${p.n} – silver jewellery"></div><h3>${p.n}</h3><p>${p.d}</p></div>`;
+const catCard=k=>{const c=CATS[k],f=P.find(p=>p.c==k);return `<a class="cat" href="#${k}"><div class="img"><img src="${f.img||art(c.type)}" alt="${c.name}"></div><h3>${c.name}</h3><span>View collection</span></a>`};
+const insta=()=>`<div class="insta">${P.slice(0,6).map(p=>`<a class="img" href="https://instagram.com/${CFG.instagram}" target="_blank" rel="noopener"><img loading="lazy" src="${im(p)}" alt="Instagram post"></a>`).join('')}</div><p style="text-align:center;margin-top:24px"><a class="btn ghost" style="margin:0" href="https://instagram.com/${CFG.instagram}" target="_blank" rel="noopener">Follow @${CFG.instagram}</a></p>`;
+const head=(t,p)=>`<div class="sec-h"><h2>${t}</h2>${p?`<p>${p}</p>`:''}</div>`;
+const V={
+ home:()=>`<div class="wrap hero"><div class="eyebrow">925 Sterling Silver</div><h1>Quiet luxury, crafted in silver</h1><p>Payals, chains and bracelets designed to be worn and loved every day.</p><a class="btn" href="#collections">Explore Collections</a><a class="btn ghost" target="_blank" rel="noopener" href="${wa('Hi House of Payal, I would like to know more about your jewellery.')}">Enquire</a></div>
+ <section style="padding-top:0"><div class="wrap">${head('Our Collections')}<div class="grid">${Object.keys(CATS).map(catCard).join('')}</div></div></section>
+ <section class="band"><div class="wrap">${head('Our Promise')}<p>Every piece is made in pure silver, finished by hand and checked for quality before it reaches you. Simple designs, honest craftsmanship.</p></div></section>
+ <section><div class="wrap">${head('Featured Pieces')}<div class="grid">${[1,4,7,11].map(i=>card(P.find(p=>p.id==i))).join('')}</div></div></section>
+ <section class="band"><div class="wrap">${head('On Instagram','@'+CFG.instagram)}${insta()}</div></section>`,
+ collections:()=>`<section><div class="wrap">${head('All Collections')}<div class="grid">${Object.keys(CATS).map(catCard).join('')}</div></div></section>`,
+ cat:k=>`<section><div class="wrap">${head(CATS[k].name,CATS[k].tag)}<div class="tabs">${Object.keys(CATS).map(x=>`<a href="#${x}" class="${x==k?'on':''}">${CATS[x].name}</a>`).join('')}</div><div class="grid">${P.filter(p=>p.c==k).map(card).join('')}</div></div></section>`,
+ about:()=>`<section><div class="wrap two"><div class="img"><img src="${art('bracelet')}" alt="House of Payal craftsmanship"></div><div class="info"><div class="eyebrow">About Us</div><h2 style="font-size:42px;margin-bottom:16px">The House of Payal story</h2><p>House of Payal began with a love for traditional silver jewellery and a belief that it can feel modern. We design payals, chains, bracelets and more, in pure silver, for women who like their style understated.</p><p>Replace this text with your own story: how the brand began, your craftsmen, and what makes your silver special.</p><ul><li>Pure 925 silver</li><li>Hand-finished detailing</li><li>Direct enquiries, personal service</li></ul></div></div></section>`,
+ contact:()=>`<section><div class="wrap two"><div class="info"><div class="eyebrow">Contact Us</div><h2 style="font-size:42px;margin-bottom:16px">Let's talk jewellery</h2><p>Message us on WhatsApp for prices, availability, custom orders or any questions. We reply quickly.</p><p><a class="wa" target="_blank" rel="noopener" href="${wa('Hi House of Payal, I have an enquiry.')}">Chat on WhatsApp</a></p><p>Email: <a href="mailto:${CFG.email}" style="text-decoration:underline">${CFG.email}</a><br>Instagram: <a href="https://instagram.com/${CFG.instagram}" target="_blank" rel="noopener" style="text-decoration:underline">@${CFG.instagram}</a><br>Location: ${CFG.city}<br>Hours: ${CFG.hours}</p></div><div class="img"><img src="${art('chain')}" alt="Silver chain"></div></div></section>`
+};
+function route(){
+ const r=(location.hash||'#home').slice(1);let h;
+ if(CATS[r])h=V.cat(r);else if(V[r]&&r!='cat')h=V[r]();else h=V.home();
+ app.innerHTML=h;window.scrollTo(0,0);$('#nv').classList.remove('open');
+ document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('on',a.dataset.r==r));
+ const t={home:'House of Payal | Handcrafted Silver Jewellery'};document.title=t[r]||((CATS[r]?CATS[r].name:r[0].toUpperCase()+r.slice(1))+' | House of Payal');
+}
+app.addEventListener('click',e=>{const c=e.target.closest('.card');if(!c)return;const p=P.find(x=>x.id==c.dataset.id);
+ $('#mc').innerHTML=`<div class="two"><div class="img"><img src="${im(p)}" alt="${p.n}"></div><div class="info"><div class="eyebrow">${CATS[p.c].name}</div><h2 style="font-size:36px;margin-bottom:10px">${p.n}</h2><p>${p.d}</p><p>Material: 925 sterling silver<br>Approx. weight: ${p.w}</p><p><a class="wa" target="_blank" rel="noopener" href="${wa(`Hi House of Payal, I'm interested in the ${p.n} (${CATS[p.c].name}). Could you share price and availability?`)}">Enquire on WhatsApp</a></p></div></div>`;
+ $('#md').classList.add('open')});
+const cl=()=>$('#md').classList.remove('open');
+$('#mx').onclick=cl;$('#md').onclick=e=>{if(e.target.id=='md')cl()};document.onkeydown=e=>{if(e.key=='Escape')cl()};
+$('#mb').onclick=()=>$('#nv').classList.toggle('open');
+$('#fab').href=wa('Hi House of Payal, I would like to enquire about your jewellery.');
+$('#fw').href=wa('Hi House of Payal!');$('#fi').href='https://instagram.com/'+CFG.instagram;
+addEventListener('hashchange',route);route();
+</script>
+</body>
+</html>
